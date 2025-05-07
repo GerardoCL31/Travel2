@@ -28,3 +28,18 @@ header h1{
     font-size: 24px;
     margin: 0;
 }
+
+section {
+    margin: 30px auto;
+    max-width: 850px;
+    padding: 20px;
+    background-color: #ececec ;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+section h3{
+    color: #ff006e;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
