@@ -82,3 +82,32 @@ p{
     font-size: 15px;
     color: #052b5e;
 }
+
+footer{
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 12px;
+}
+
+footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+footer-item{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer-item img{
+width: 18px;
+height: 18px;
+vertical-align: middle;
+}
