@@ -15,17 +15,21 @@ header {
     background-color: #d9d9d9;
     padding: 10px 20px;
     border-bottom: 2px solid #00b2b2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 header h1{
     color:#008cff;
     font-size: 24px;
     margin: 0;
+
 }
 
 .intro h2 {
-    color: #ff006e;
-    font-size: 24px;
+    color: #b80653;
+    font-size: 22px;
     margin: 0;
 }
 
@@ -51,7 +55,7 @@ section h4{
 }
 
 .location{
-    color: #ff3399;
+    color: #af2f6f;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -68,3 +72,13 @@ section h4{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.destination1 img:hover, .destination2 img:hover, .destination3 img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0. 0, 0.3);
+}
+
+p{
+    line-height: 1.5;
+    font-size: 15px;
+    color: #052b5e;
+}
