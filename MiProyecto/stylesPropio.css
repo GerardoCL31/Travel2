@@ -56,3 +56,15 @@ section h4{
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+.destination1 img, .destination2 img, .destination3 img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0. 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
