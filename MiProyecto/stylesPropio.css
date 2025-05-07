@@ -18,19 +18,22 @@ header {
     align-items: center;
     justify-content: center;
     display: flex;
+    
 }
 
 header h1{
     color:#008cff;
-    font-size: 24px;
+    font-size: 40px;
     margin: 0;
+    
 
 }
 
 .intro h2 {
-    color: #b80653;
-    font-size: 22px;
+    color: #000000;
+    font-size: 24px;
     margin: 0;
+    text-align: center;
 }
 
 section {
@@ -39,6 +42,7 @@ section {
     padding: 20px;
     background-color: #ececec ;
     box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    border-radius: 15px;
 }
 
 section h3{
@@ -46,6 +50,7 @@ section h3{
     font-size: 20px;
     margin-bottom: 5px;
     text-transform: capitalize;
+    
 }
 
 section h4{
@@ -73,7 +78,7 @@ section h4{
 }
 
 .destination1 img:hover, .destination2 img:hover, .destination3 img:hover{
-    transform: scale(1.02);
+    transform: scale(1.07);
     box-shadow: 0 12px 24px rgba(0, 0. 0, 0.3);
 }
 
@@ -110,4 +115,68 @@ footer-item{
 width: 18px;
 height: 18px;
 vertical-align: middle;
+}
+
+form{
+    max-width: 400px;
+    background-color:#fefefed8;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 6px, 12pc, 0.15);
+    font-size: 14px;
+    color: #003366;
+}
+
+form label{
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px, solid #ccc;
+    border-radius: 10px;
+}
+
+.required{
+    color: red;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"],
+form button {
+    background-color: #00d68f;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;  
+    justify-content: flex-start; 
+    height: 300px; 
+}
+
+form input[type="submit"] {
+    margin-top: auto;  
+    background-color: #007755;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #00b273;
 }
