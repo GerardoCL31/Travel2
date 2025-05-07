@@ -25,3 +25,8 @@ Texto capitalizado: Usando text-transform: capitalize para transformar el texto.
 Licencia
 Este proyecto está bajo la licencia MIT.
 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
