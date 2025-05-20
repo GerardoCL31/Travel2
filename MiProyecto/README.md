@@ -1,29 +1,32 @@
 # Travel2
 
-Este proyecto demuestra conceptos básicos de CSS, como el centrado de contenido, transiciones y transformación de texto.
+This project demonstrates basic CSS concepts such as content centering, transitions, and text transformation.
 
-Características
-Centrado de texto en el medio de la pantalla.
+Features
+Centered text in the middle of the screen.
 
-Transiciones suaves para propiedades como transform y box-shadow.
+Smooth transitions for properties like transform and box-shadow.
 
-Transformación de texto para poner en mayúscula la primera letra de cada palabra.
+Text transformation to capitalize the first letter of each word.
 
-Instalación
-Clona el repositorio:
+Installation
+Clone the repository:
 
-git clone https://github.com/TU-USUARIO/nombre-del-repo.git
-Abre el archivo INDEXpropio.html en tu navegador.
+bash
+Copiar
+Editar
+git clone https://github.com/YOUR-USERNAME/repo-name.git
+Open the INDEXpropio.html file in your browser.
 
-Uso
-Centrado de texto: Usando Flexbox para centrar el contenido.
+Usage
+Text Centering: Using Flexbox to center content.
 
-Transiciones: Animación de elementos cuando el usuario interactúa.
+Transitions: Animating elements when the user interacts.
 
-Texto capitalizado: Usando text-transform: capitalize para transformar el texto.
+Capitalized Text: Using text-transform: capitalize to transform the text.
 
-Licencia
-Este proyecto está bajo la licencia MIT.
+License
+This project is licensed under the MIT License.
 
 ![alt text](image.png)
 
