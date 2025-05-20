@@ -28,7 +28,7 @@ Capitalized Text: Using text-transform: capitalize to transform the text.
 License
 This project is licensed under the MIT License.
 
-1.png
-2.png
-3.png
-4.png
+![Cap1](1.png)
+![Cap2](2.png)
+![Cap3](3.png)
+![Cap4](4.png)
